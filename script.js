@@ -37,6 +37,6 @@ var d=document.getElementById('output');
 
 promises=[promise1,promise2,promise3,promise4,promise5];
 Promise.any(promises).then((data)=>{
-	d.innerHtml=data;
+	d.innerText=data;
 })
 
